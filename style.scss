@@ -18,6 +18,7 @@ html {
 }
 
 body {
+	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -61,13 +62,6 @@ h3 {
 h4 {
   font-size: 18px;
   color: $gray;
-}
-
-h5 {
-  font-size: 24px;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
 }
 
 p {
@@ -157,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .masthead {
@@ -278,7 +272,7 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 0px;
+  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -306,8 +300,8 @@ img {
 }
 
 .ulogo {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 div.ulogo { float:left; }
