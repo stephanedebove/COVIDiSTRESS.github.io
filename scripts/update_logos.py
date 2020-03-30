@@ -28,6 +28,6 @@ for i, logo in enumerate(logo_files):
 with open('logos.yml', 'w') as f:
     for name, desc in logos:
         f.write('-url: '+name+'\n')
-        f.write(' desc: '+clean_name(desc)+'\n')
+        f.write(' desc: "'+clean_name(desc)+'"\n')
     f.flush()
         
