@@ -16,35 +16,32 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead" style="background-color:lightblue; border-style: solid;
-  border-width: 3px; border-color: lightblue">
-	 <div class="container" style="background-color:lightblue; border-style: solid;
-  border-width: 3px; border-color: lightblue">
+    <div class="wrapper-masthead">
+	 <div class="container" >
       <!--  <div class="container" style="background-image: url('/images/world_washout.jpg'); background-position:center; width: 100% "> -->
         <header class="masthead clearfix">
 		
          <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/"><b>{{ site.name }}</b></a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav style="text-align: center">
-			<a href="{{ site.baseurl }}/research"><b>Research Questions</b></a>
-			<a href="{{ site.baseurl }}/data"><b>Data & Registration</b></a>
-            <a href="{{ site.baseurl }}/about"><b>Contributors</b> </a>
+			<a href="{{ site.baseurl }}/research">Research Questions</a>
+			<a href="{{ site.baseurl }}/data">Data & Registration</a>
+            <a href="{{ site.baseurl }}/about">Contributors</a>
           </nav>
         </header>
       </div>
     </div>
 
-    <div id="main" role="main" class="container" style="background-color:Azure; border-style: solid;
-  border-width: 3px; border-color: lightblue" >
+    <div id="main" role="main" class="container" >
       {{ content }}
     </div>
 
-    <div class="wrapper-footer" style="background-color:lightblue">
+    <div class="wrapper-footer" >
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
