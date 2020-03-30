@@ -106,9 +106,6 @@ strong, b {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
-}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -302,6 +299,7 @@ img {
 .ulogo {
     height: 75px;
     width: 75px;
+	margin: 5px;
 }
 
 div.ulogo { float:left; }
